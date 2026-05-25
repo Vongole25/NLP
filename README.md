@@ -1,9 +1,3 @@
-<!--
-  Vongole25/NLP/README.md
-  → NLP 학습 & 프로젝트 repo
-  현재는 거의 비어있음 → 졸업 후(2026 여름) 본격적으로 채워나갈 자리
--->
-
 # NLP — Study Notes & Personal Projects
 
 Personal repository for **Natural Language Processing** studies and projects.
@@ -18,49 +12,42 @@ Heading toward NLP / LLM graduate school admission (2027 Spring).
 
 - Large Language Models (instruction tuning, evaluation, RAG)
 - Korean NLP
+- LLM Bias, Hallucination, AI Safety
 - Multimodal Learning (Vision-Language)
-- LLM Reasoning & Tool Use
+
+## 📁 Projects
+
+### 🔥 [stereoset_topic_bias/](./stereoset_topic_bias/) — Implicit Bias × Hallucination in LLMs
+Correlation study between implicit bias and hallucination under ambiguous contexts.
+- Llama-3-8B-Instruct + Gemini comparison
+- StereoSet-style evaluation (`llm-ss`)
+- Gender × Major pilot experiment
+- RAG augmentation
+
+### Annotated Transformer.ipynb
+Hand-implemented Transformer notebook (from the *Annotated Transformer* tutorial).
 
 ## 📚 In Progress
 
-### Stanford CS224N — Natural Language Processing with Deep Learning
-- Self-study, resuming Summer 2026 with the goal of completing all assignments.
-- Notes & assignment write-ups will be pushed under `cs224n/`.
-
-### NLP Paper Reviews
-- Detailed reviews posted on my [blog](https://it-study-2002.tistory.com/).
-- Highlighted areas: LLM evaluation, RAG, instruction tuning, Korean NLP.
-
----
+- **Stanford CS224N** — completing in Summer 2026
+- **NLP Paper Reviews** on the [blog](https://it-study-2002.tistory.com/)
 
 ## 🛠 Planned Personal Projects (Summer 2026)
 
-> 🚧 To be added — currently scoping. Likely to land in this repo by **August 2026**.
+1. Korean Sentiment Classification — Fine-tuning a small LLM
+2. Minimal RAG Pipeline
+3. CS224N Assignments
 
-1. **Korean Sentiment Classification — Fine-tuning a small LLM**
-   - Fine-tune a small open Korean LM (e.g., KULLM, Polyglot-Ko) on a sentiment dataset.
-   - Compare prompting vs LoRA fine-tuning.
+## 🛠 Stack
 
-2. **Minimal RAG Pipeline**
-   - End-to-end RAG with a small embedding model + open LLM.
-   - Evaluate retrieval quality and grounded answer correctness.
-
-3. **CS224N Assignments Reproduction**
-   - Word vectors → Transformers → final project.
-
----
-
-## 🛠 Stack (target)
-
-`Python` · `PyTorch` · `HuggingFace Transformers` · `datasets` · `peft` · `LangChain` (selective)
-
----
+`Python` · `PyTorch` · `HuggingFace Transformers` · `datasets` · `peft` ·
+`accelerate` · `LangChain`
 
 ## 📌 Related Repos
 
-- **[University-Projects](https://github.com/Vongole25/University-Projects)** — coursework / competition projects
-- **[Computer-Vision](https://github.com/Vongole25/Computer-Vision)** — CV implementations & competitions
+- **[University-Projects](https://github.com/Vongole25/University-Projects)** — 학기별 timeline · 챗봇(4-1)·생존분석(2022) 등
+- **[Computer-Vision](https://github.com/Vongole25/Computer-Vision)** — 🥈 딥페이크 (T-SUM 2025-1) · 🥉 결점두 (T-SUM 2024-2)
 
 ---
 
-📌 Preparing for **NLP graduate school admission (2027 Spring)**. See [my profile](https://github.com/Vongole25) for context.
+📌 Preparing for **NLP graduate school admission (2027 Spring)** — see [profile](https://github.com/Vongole25).
